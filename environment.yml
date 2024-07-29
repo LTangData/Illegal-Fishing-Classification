@@ -1,0 +1,19 @@
+name: illegal_fishing_classification
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.4
+  - pip
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip:
+    - python-dotenv
+    - awscli
+    - mkdocs
+    - -e .

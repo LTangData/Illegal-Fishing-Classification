@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "illegal_fishing_classification"
+version = "0.0.1"
+description = "Marine life has a significant impact on our planet, providing food, oxygen, and biodiversity. Unfortunately, 90% of the large fish are gone primarily as a result of overfishing. In addition, many major fisheries notice increases in illegal fishing, undermining the efforts to conserve and manage fish stocks. Detecting fishing activities in the ocean is a crucial step in achieving sustainability."
+authors = [
+  { name = "Leo Tang" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "~=3.12.4"
+
+[tool.black]
+line-length = 99
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+)/
+'''
+
+[tool.ruff.lint.isort]
+known_first_party = ["illegal_fishing_classification"]
+force_sort_within_sections = true
