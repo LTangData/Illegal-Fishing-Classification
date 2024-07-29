@@ -15,6 +15,9 @@ Marine life has a significant impact on our planet, providing food, oxygen, and 
 * Deploy the trained model on a live server and integrate it into a web application
 * Finish by monitoring the model in production and iterating
 
+## Expected Output
+Deployed model running in a live server and used within a web service or mobile application to predict illegal fishing in real time.
+
 ## Project Organization
 
 ```
