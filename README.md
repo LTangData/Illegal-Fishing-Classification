@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Marine life has a significant impact on our planet, providing food, oxygen, and biodiversity. Unfortunately, 90% of the large fish are gone primarily as a result of overfishing. In addition, many major fisheries notice increases in illegal fishing, undermining the efforts to conserve and manage fish stocks. Detecting fishing activities in the ocean is a crucial step in achieving sustainability.
+Marine life has a significant impact on our planet, providing food, oxygen, and biodiversity. Unfortunately, **90% of the large fish** are gone primarily as a result of overfishing. In addition, many major fisheries notice increases in illegal fishing, undermining the efforts to conserve and manage fish stocks. Detecting fishing activities in the ocean is a crucial step in achieving sustainability.
 
 ## Project Organization
 
