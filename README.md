@@ -6,6 +6,15 @@
 
 Marine life has a significant impact on our planet, providing food, oxygen, and biodiversity. Unfortunately, **90% of the large fish** are gone primarily as a result of overfishing. In addition, many major fisheries notice increases in illegal fishing, undermining the efforts to conserve and manage fish stocks. Detecting fishing activities in the ocean is a crucial step in achieving sustainability.
 
+## Methodology
+* Collect the fishing watch dataset
+* Clean the data
+* Perform data exploration to understand it better
+* Perform engineering to extract features from the data
+* Train classification models to categorize the fishing activity
+* Deploy the trained model on a live server and integrate it into a web application
+* Finish by monitoring the model in production and iterating
+
 ## Project Organization
 
 ```
